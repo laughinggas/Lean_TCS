@@ -1,0 +1,10 @@
+name = "Lean_TCS"
+version = "0.1.0"
+defaultTargets = ["lean_tcs"]
+
+[[lean_lib]]
+name = "LeanTCS"
+
+[[lean_exe]]
+name = "lean_tcs"
+root = "Main"
