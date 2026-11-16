@@ -8,3 +8,8 @@ name = "LeanTCS"
 [[lean_exe]]
 name = "lean_tcs"
 root = "Main"
+
+[[require]]
+name = "cslib"
+scope = "leanprover"
+rev = "main"
